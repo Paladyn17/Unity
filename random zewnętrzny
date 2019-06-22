@@ -1,0 +1,34 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class RoomSpawner : MonoBehaviour
+{
+    public int openingDirection;
+    // 1 ----> do tylnych drzwi.
+    // 2 ----> do górnych drzwi.
+    // 3 ----> do lewych drzwi.
+    // 4 ----> do prawych drzwi.
+
+
+    void Update()
+    {
+        if (openingDirection == 1) {
+
+            // musi zespawnować tylne drzwi.
+        } else if (openingDirection == 2) {
+
+            // musi zespawnować górne drzwi.
+
+        } else if (openingDirection == 3) {
+            {
+                // musi zespawnować lewe drzwi.
+            }
+            } else if (openingDirection == 4) {
+
+                // musi zespawnować prawe drzwi.
+            }
+        }
+    }
+
+
